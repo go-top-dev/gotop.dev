@@ -77,11 +77,22 @@ export const adaptOpenGraphImages = async (
           height: image?.height || defaultHeight,
         });
 
+        interface ImageWithDimensions {
+          width?: number;
+          height?: number;
+        }
+
         if (typeof _image === 'object') {
           return {
             url: typeof _image.src === 'string' ? String(new URL(_image.src, astroSite)) : 'pepe',
-            width: typeof _image.width === 'number' ? _image.width : undefined,
-            height: typeof _image.height === 'number' ? _image.height : undefined,
+            width:
+              typeof (_image as ImageWithDimensions).width === 'number'
+                ? (_image as ImageWithDimensions).width
+                : undefined,
+            height:
+              typeof (_image as ImageWithDimensions).height === 'number'
+                ? (_image as ImageWithDimensions).height
+                : undefined,
           };
         }
         return {
