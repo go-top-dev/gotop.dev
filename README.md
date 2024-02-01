@@ -1,12 +1,10 @@
 # 🚀 GoTop.dev site
 
-[![Deploy to GitHub Pages](https://github.com/pengqun/pengqun.github.io/actions/workflows/deploy.yml/badge.svg?branch=main)](https://github.com/pengqun/pengqun.github.io/actions/workflows/deploy.yml)
+[![Deploy to GitHub Pages](https://github.com/go-top-dev/gotop.dev/actions/workflows/deploy.yml/badge.svg?branch=main)](https://github.com/go-top-dev/gotop.dev/actions/workflows/deploy.yml)
 
 ## Introduction
 
 🚧 Under construction...
-
-<br>
 
 ## Contributing
 
