@@ -1,6 +1,6 @@
 site:
-  name: AstroWind
-  site: 'https://astrowind.vercel.app'
+  name: GoTop
+  site: 'https://gotop.dev'
   base: '/'
   trailingSlash: false
 
