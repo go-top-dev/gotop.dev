@@ -1,5 +1,5 @@
 site:
-  name: Go Top !
+  name: GoTop.dev
   site: 'https://gotop.dev'
   base: '/'
   trailingSlash: false
